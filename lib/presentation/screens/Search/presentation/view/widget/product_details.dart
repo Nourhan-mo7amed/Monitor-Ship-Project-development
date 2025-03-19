@@ -61,7 +61,7 @@ class ProductDetails extends StatelessWidget {
               const Text("Similar Product", style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500)),
               const SimilarProductListView(),
               
-              // زر Add To Cart مع التتبع
+            
               GestureDetector(
                 onTap: _logAddToCart,
                 child: const CustomBottom(color: Color(0xff343434), title: "Add To Cart"),
